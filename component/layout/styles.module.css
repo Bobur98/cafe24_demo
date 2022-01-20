@@ -1,0 +1,16 @@
+.bodyContainer {
+  background-color: rgb(223, 219, 219);
+  display: flex;
+  flex-direction: column;
+}
+.wrapper {
+  display: flex;
+}
+
+.bodySection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
+  justify-content: center;
+}

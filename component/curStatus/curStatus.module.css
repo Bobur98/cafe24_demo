@@ -1,0 +1,37 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  /* height: 8vw; */
+}
+.subContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 6px;
+  flex: 1;
+  /* border: 1px solid gray; */
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 0.8rem 6rem;
+  flex: 1;
+  text-align: center;
+  margin: 2px;
+  /* width: 15rem; */
+  background-color: #ffffff;
+  div {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+.link {
+  float: right;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.mainContainer h5 {
+  margin: 0;
+  padding: 0;
+}

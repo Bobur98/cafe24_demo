@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 92vh;
+  justify-content: center;
+}
+.wrapper {
+  display: flex;
+}
+.wrapper:first-child {
+  margin: 0 auto;
+}
+.vl {
+  border-left: 2px dotted gray;
+  margin: 0 1rem;
+}
+.cursearchcon {
+  display: flex;
+  flex-direction: column;
+  .span {
+    position: relative;
+    top: 2rem;
+    color: black;
+    font-size: 16px;
+    font-weight: bolder;
+  }
+}

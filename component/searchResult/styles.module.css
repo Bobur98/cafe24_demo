@@ -1,0 +1,67 @@
+.table {
+  font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  margin-top: 45px;
+}
+
+.table td,
+.table th {
+  border: 1px solid #333;
+  padding: 8px;
+  background-color: white;
+  padding: 12px 0;
+}
+
+.table tr:hover {
+  background-color: #333;
+}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: rgb(226, 223, 223);
+  color: #333;
+}
+.select {
+  margin-right: 10px;
+}
+.select button {
+  float: right;
+  padding: 2px 5px;
+}
+.select select {
+  padding: 2px 5px;
+}
+
+.pageNumbers {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 25px auto;
+}
+
+.pageNumbers li {
+  padding: 0 7px;
+  cursor: pointer;
+  block-size: fit-content;
+}
+.active {
+  background-color: blue;
+  color: white;
+}
+.pageNumbers button {
+  background-color: white;
+  border: none;
+  color: black;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin: 2px;
+}
+.pageNumbers button:hover {
+  background-color: rgb(165, 158, 158);
+  color: rgb(12, 12, 12);
+}
+.pageNumbers button:focus {
+  outline: none;
+}

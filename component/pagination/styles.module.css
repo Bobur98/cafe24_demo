@@ -1,0 +1,33 @@
+.pageNumbers {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 25px auto;
+  li {
+    padding: 0 7px;
+    cursor: pointer;
+    block-size: fit-content;
+  }
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: none;
+    color: black;
+    cursor: pointer;
+    margin: 2px;
+    &:hover {
+      background-color: rgb(165, 158, 158);
+      color: rgb(12, 12, 12);
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.active {
+  background-color: blue;
+  color: white;
+}

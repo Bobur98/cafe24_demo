@@ -1,0 +1,66 @@
+.container {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.table {
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+.table input[type='text'] {
+  padding: 0 25px;
+}
+
+.secondLine {
+  display: flex;
+  flex-direction: row;
+  padding: 7px 15px;
+}
+.secondLine input {
+  margin: 0 3px;
+}
+.dayContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 0 5px 0 35px;
+}
+
+.dayContainer div {
+  border: 1px solid black;
+  padding: 2px 20px;
+}
+.th {
+  border: 1px solid gray;
+  padding: 0.5rem 5rem 0.5rem 1rem;
+  text-align: left;
+}
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+}
+.btnContainer button {
+  background-color: #ffffff;
+  color: #333;
+  padding: 10px 30px;
+  border: 1px solid gray;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.btnContainer button:hover {
+  background-color: blue;
+  color: #ffffff;
+}
+.btnContainer button:active {
+  box-shadow: rgb(75, 22, 199) 0px 3px 10px;
+  transform: scale(0.95);
+}
+.btnContainer :first-child {
+  margin-right: 10px;
+}
+
+.searchIcon {
+  position: absolute;
+  margin: 3px 0 2px 5px;
+}

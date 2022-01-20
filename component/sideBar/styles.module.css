@@ -1,0 +1,81 @@
+.sideBar {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgb(33, 33, 63);
+  width: 25vh;
+  transition: width 0.2s ease-in;
+  color: #fff;
+  font-size: 16px;
+}
+.inactive :not(:first-child) {
+  display: none;
+  overflow: hidden;
+}
+.inactive:first-child {
+  left: 0;
+  margin-left: 0;
+  transform: translateX(-33px);
+}
+
+.mainContainer {
+  margin: 2rem 0.5rem 0 1.2rem;
+}
+
+.topSectionContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: gray;
+  font-size: 12px;
+  position: relative;
+}
+.btn {
+  position: absolute;
+  transform: translateY(30px);
+  margin-left: 10.8rem;
+  padding: 12px 7px;
+  background-color: rgb(33, 33, 63);
+  border: none;
+  color: gray;
+  right: 0;
+  cursor: pointer;
+  transform: translateX(33px);
+  z-index: 1;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.subContainer {
+  padding-bottom: 0.5rem;
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+  /* margin: 0 auto; */
+  display: block;
+  opacity: 1;
+  transition: opacity 0.2s ease-in;
+}
+
+.link span {
+  opacity: 1;
+  transition: opacity 0.2s ease-in;
+  display: inline-block;
+}
+
+.arrow {
+  float: right;
+}
+.icon {
+  stroke: blanchedalmond;
+  opacity: 1;
+
+  & path {
+    fill: red;
+    color: red;
+    stroke: red;
+  }
+}
